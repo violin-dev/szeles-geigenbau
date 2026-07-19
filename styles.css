@@ -57,6 +57,11 @@ h1 { font-size: clamp(54px, 5.3vw, 84px); line-height: .98; letter-spacing: -.03
 .photo-placeholder { background: #26211e; color: rgba(255,255,255,.45); display: flex; align-items: flex-end; padding: 22px; font-size: 11px; text-transform: uppercase; letter-spacing: .16em; position: relative; overflow: hidden; }
 .photo-placeholder::before { content: ""; position: absolute; inset: 15%; border: 1px solid rgba(255,255,255,.12); transform: rotate(-5deg); }
 .photo-placeholder.tall { grid-row: 1 / 3; background: linear-gradient(145deg,#0e0c0b,#3b2821); }
+.photo-placeholder.has-photo { margin: 0; padding: 0; }
+.photo-placeholder.has-photo::before { display: none; }
+.photo-placeholder.has-photo img { width: 100%; height: 100%; display: block; object-fit: cover; object-position: 50% 50%; filter: saturate(.82) contrast(1.03); transition: transform .5s ease; }
+.photo-placeholder.has-photo:hover img { transform: scale(1.015); }
+.photo-placeholder.has-photo figcaption { position: absolute; z-index: 2; left: 22px; bottom: 20px; padding: 8px 11px; background: rgba(21,18,16,.72); color: rgba(255,255,255,.82); backdrop-filter: blur(5px); }
 .contact { background: var(--dark); color: var(--paper); display: grid; grid-template-columns: 55% 45%; }
 .section-label.light { color: #a59d91; }
 .contact h2 { font-size: clamp(54px, 6vw, 88px); line-height: 1; }
