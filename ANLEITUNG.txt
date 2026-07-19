@@ -1,0 +1,19 @@
+MIKLOS SZÉLES – WEBSITE
+
+1. Die ZIP-Datei entpacken.
+2. Auf GitHub das Repository öffnen.
+3. Add file → Upload files auswählen.
+4. index.html und styles.css gleichzeitig hochladen.
+5. Commit changes bestätigen.
+6. Unter Settings → Pages einstellen:
+   Source: Deploy from a branch
+   Branch: main
+   Ordner: /(root)
+7. Save anklicken und einige Minuten warten.
+
+WICHTIG VOR DER ENDGÜLTIGEN VERÖFFENTLICHUNG:
+Das Impressum muss noch mit den vollständigen Gewerbe-/Unternehmensdaten
+von Miklos ergänzt werden.
+
+Die Bildflächen sind aktuell absichtlich Platzhalter. Sobald die Analogfotos
+vorliegen, können sie in die Website eingebaut werden.
